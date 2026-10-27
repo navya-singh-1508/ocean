@@ -56,6 +56,7 @@ export type Creature = {
   image: string
   imageUrl?: string
   imageAttribution?: string
+  imageSrcNote?: string
   environmentalConditions?: EnvironmentalConditions
   biologicalAdaptations?: string[]
   ecologicalRole?: string

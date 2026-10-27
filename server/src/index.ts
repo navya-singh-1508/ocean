@@ -61,6 +61,13 @@ app.use(express.json({ limit: '100kb' }))
 // Cookie parser — required for JWT auth via HTTP-only cookies
 app.use(cookieParser())
 
+// Serve authentic marine species images statically
+import path from 'path'
+import { fileURLToPath } from 'url'
+const __serverDir = path.dirname(fileURLToPath(import.meta.url))
+app.use('/species', express.static(path.join(__serverDir, '../public/species')))
+app.use('/zones', express.static(path.join(__serverDir, '../public/zones')))
+
 // Simple in-memory fallback stores for offline/development resiliency
 const inMemoryPredictions = new Map<string, PredictedCreature>()
 const inMemoryDiscoveries: DiscoveryItem[] = []

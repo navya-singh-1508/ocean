@@ -61,7 +61,7 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Endangered',
     description: 'A graceful ocean traveller that migrates thousands of kilometres between foraging pastures and natal nesting beaches. Seagrass meadows are a vital part of its adult diet.',
     fact: 'Green sea turtles return across thousands of kilometres of open ocean to nest on the exact beach where they were born.',
-    imageUrl: 'https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?auto=format&fit=crop&w=1000&q=85',
+    imageUrl: '/species/turtle.jpg',
     imageAttribution: 'Unsplash Marine Collection',
     sourceReferences: [
       {
@@ -100,7 +100,7 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'Small, vividly patterned reef fish renowned for their symbiotic partnership with sea anemones. A protective mucus coating shields them from stinging tentacles.',
     fact: 'All clownfish are born male; the largest and most dominant fish in a social group transitions into the breeding female.',
-    imageUrl: 'https://images.unsplash.com/photo-1535591273668-578e31182c4f?auto=format&fit=crop&w=1000&q=85',
+    imageUrl: '/species/clownfish.jpg',
     imageAttribution: 'Unsplash Marine Collection',
     sourceReferences: [
       {
@@ -134,7 +134,7 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'Highly intelligent, social marine mammals that utilize intricate acoustic whistle dialects and echolocation to navigate and coordinate cooperative hunts.',
     fact: 'Dolphins produce directional echolocation clicks capable of resolving a tennis-ball sized target over 100 meters away.',
-    imageUrl: 'https://images.unsplash.com/photo-1607153333879-c174d265f1d2?auto=format&fit=crop&w=1000&q=85',
+    imageUrl: '/species/dolphin.jpg',
     imageAttribution: 'Unsplash Marine Collection',
     sourceReferences: [
       {
@@ -167,7 +167,7 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Endangered',
     description: 'A gentle giant of the open sea that glides with immense triangular pectoral fins exceeding six metres in wingspan, scooping plankton through mobile cephalic lobes.',
     fact: 'Giant manta rays have the largest brain-to-body weight ratio of any cold-blooded fish species on Earth.',
-    imageUrl: 'https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1000&q=85',
+    imageUrl: '/species/manta.jpg',
     imageAttribution: 'Unsplash Marine Collection',
     sourceReferences: [
       {
@@ -201,7 +201,7 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Not evaluated',
     description: 'A translucent, undulating medusa with four distinctive horseshoe-shaped gonads visible through its gelatinous umbrella, drifting along oceanic currents.',
     fact: 'Moon jellyfish lack lungs, gills, and a heart; oxygen diffuses directly through their thin external tissue layers.',
-    imageUrl: 'https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=1000&q=85',
+    imageUrl: '/species/jellyfish.jpg',
     imageAttribution: 'Unsplash Marine Collection',
     sourceReferences: [
       {
@@ -234,7 +234,7 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'A remarkably intelligent invertebrate equipped with three hearts, blue hemocyanin blood, and the uncanny ability to squeeze through openings no larger than its beak.',
     fact: 'An octopus has three functioning hearts; two pump blood through the gills, while the third circulates oxygenated blue blood through the organs.',
-    imageUrl: 'https://images.unsplash.com/photo-1545670723-196ed0954986?auto=format&fit=crop&w=1000&q=85',
+    imageUrl: '/species/common-octopus.jpg',
     imageAttribution: 'Unsplash Marine Collection',
     sourceReferences: [
       {
@@ -267,8 +267,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'Celebrated for complex acoustic songs and immense annual migrations, humpback whales lunge through dense krill swarms with accordion-like pleated throat grooves.',
     fact: 'Humpback whale songs can travel hundreds of kilometres through deep ocean acoustic sound channels (the SOFAR layer).',
-    imageUrl: 'https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Unsplash Marine Collection',
+    imageUrl: '/species/humpback-whale.jpg',
+    imageAttribution: 'Wikipedia user Fir0002 — CC BY-SA 3.0 / Wikimedia Commons. Megaptera novaeangliae underwater.',
     sourceReferences: [
       {
         title: 'NOAA Fisheries: Humpback Whale Species Directory',
@@ -301,8 +301,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'An iconic inhabitant of the pitch-black midnight zone. Females possess a glowing lure to entice curious prey toward rows of long, inward-curving translucent teeth.',
     fact: 'The glowing light at the tip of the anglerfish lure is not produced by the fish itself, but by millions of symbiotic bioluminescent bacteria.',
-    imageUrl: 'https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Unsplash Marine Collection',
+    imageUrl: '/species/anglerfish.jpg',
+    imageAttribution: 'Edith Widder / NOAA — Public Domain. Melanocetus johnsonii female with esca lure.',
     sourceReferences: [
       {
         title: 'MBARI: Deep-sea anglerfish observations',
@@ -335,7 +335,7 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Endangered',
     description: 'The largest extant fish on Earth, easily recognized by its broad flattened head and distinctive starry constellation pattern of pale spots unique to every individual.',
     fact: 'The white spot pattern on each whale shark’s skin is as unique as a human fingerprint, allowing scientists to identify individuals using astronomical algorithm software.',
-    imageUrl: 'https://images.unsplash.com/photo-1560275619-4662e36fa65c?auto=format&fit=crop&w=1000&q=85',
+    imageUrl: '/species/shark.jpg',
     imageAttribution: 'Unsplash Marine Collection',
     sourceReferences: [
       {
@@ -370,8 +370,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Varies by species',
     description: 'The deepest-living vertebrate fish ever captured alive. Its translucent pinkish flesh reveals internal organs, operating with ease under pressure that would instantly crush an unadapted submarine.',
     fact: 'At 8,000 metres depth, the Mariana snailfish endures pressure equivalent to the weight of 1,600 elephants stacked on a single car.',
-    imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Hadal Science Research Network',
+    imageUrl: '/species/snailfish.png',
+    imageAttribution: 'Gerringer et al. (2017) / Wikimedia Commons — CC BY 4.0. Pseudoliparis swirei holotype.',
     sourceReferences: [
       {
         title: 'Nature Ecology & Evolution: Snailfish adaptation to hadal depths',
@@ -408,8 +408,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'Towering tube-dwelling worms that flourish along tectonic spreading ridges. Growing up to two metres tall inside white chitinous tubes, their scarlet plumes capture dissolved hydrogen sulfide to feed symbiotic bacteria.',
     fact: 'Riftia pachyptila has the fastest growth rate of any known marine invertebrate, growing up to 85 cm in a single year near active vents.',
-    imageUrl: 'https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'NOAA Ocean Exploration',
+    imageUrl: '/species/giant-tubeworm.jpg',
+    imageAttribution: 'NOAA / OAR / NURP — Public Domain. Riftia pachyptila colony at hydrothermal vent.',
     sourceReferences: [
       {
         title: 'Science: Prokaryotic symbionts in Riftia pachyptila',
@@ -442,8 +442,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'An extraordinary deep-sea fish with a completely transparent, fluid-filled forehead canopy that protects sensitive, upward-gazing green tubular eyes from siphonophore stinging cells.',
     fact: 'The two indentations on the front of the barreleye’s face that resemble eyes are actually olfactory nares (nostrils); its real eyes are the glowing green orbs inside its transparent head.',
-    imageUrl: 'https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'MBARI Deep-Sea Laboratory',
+    imageUrl: '/species/barreleye.jpg',
+    imageAttribution: 'MBARI © 2004 — Robison & Reisenbichler (2008). Macropinna microstoma specimen, ROV footage.',
     sourceReferences: [
       {
         title: 'MBARI: Barreleye fish research profile',
@@ -476,8 +476,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Vulnerable',
     description: 'A formidable apex predator that patrols coastal shallows to deep open ocean contours. Powered by regional endothermy and acute electro-sensory pores.',
     fact: 'Great whites can detect a single droplet of blood in 100 litres of seawater and feel the electrical heartbeat of an immobile fish.',
-    imageUrl: 'https://images.unsplash.com/photo-1560275619-4662e36fa65c?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Unsplash Marine Gallery',
+    imageUrl: '/species/great-white.jpg',
+    imageAttribution: 'Fallows C, Gallagher AJ, Hammerschlag N — CC BY 2.5 via Wikimedia Commons.',
     sourceReferences: [
       {
         title: 'IUCN Red List: Carcharodon carcharias',
@@ -509,8 +509,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Endangered',
     description: 'The largest animal ever known to inhabit our planet, growing up to 30 metres in length. It communicates across entire ocean basins using low-frequency infrasonic pulses.',
     fact: 'A blue whale calf drinks up to 400 litres of mother’s milk daily, gaining approximately 90 kilograms every 24 hours.',
-    imageUrl: 'https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'NOAA Fisheries',
+    imageUrl: '/species/blue-whale.jpg',
+    imageAttribution: 'NOAA Photo Library / Wikimedia Commons — Public Domain. Balaenoptera musculus at surface.',
     sourceReferences: [
       {
         title: 'Science: Dynamics of blue whale lunge-feeding',
@@ -542,8 +542,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'Neither a true squid nor an octopus, but a primitive cephalopod order. Covered in black-red webbing, it thrives in stagnant deep water where oxygen is almost non-existent.',
     fact: 'When frightened, it turns inside out into a spiky "pineapple posture", shielding its soft body with fleshy, harmless arm spines.',
-    imageUrl: 'https://images.unsplash.com/photo-1545670723-196ed0954986?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'MBARI Cephalopod Research',
+    imageUrl: '/species/vampire-squid.jpg',
+    imageAttribution: 'MBARI — Public Domain / Wikimedia Commons. Vampyroteuthis infernalis live specimen.',
     sourceReferences: [
       {
         title: 'Proc. R. Soc. B: Vampire squid feeding ecology',
@@ -575,8 +575,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'An elongated, pitch-black predator with oversized transparent teeth. Its chin features a glowing barbel lure and a specialized subocular organ that projects invisible red bioluminescence.',
     fact: 'Because almost no other fish in the sea can perceive red light, the dragonfish effectively possesses an infrared searchlight to stalk prey in absolute secrecy.',
-    imageUrl: 'https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Oceanic Research Institute',
+    imageUrl: '/species/dragonfish.jpg',
+    imageAttribution: 'Wikimedia Commons — Stomias boa boa specimen photograph, Public Domain.',
     sourceReferences: [
       {
         title: 'Cell Press Matter: Transparent dragonfish teeth',
@@ -608,8 +608,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Critically endangered',
     description: 'A majestic living fossil thought extinct for 66 million years until discovered in a South African fishing trawl in 1938. Possesses ancient limb-like lobed fins.',
     fact: 'Coelacanths have a gestation period of roughly 5 years—the longest known of any vertebrate animal on Earth.',
-    imageUrl: 'https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Smithsonian Institution',
+    imageUrl: '/species/coelacanth.jpg',
+    imageAttribution: 'Georges Jansoone — CC BY-SA 3.0 / Wikimedia Commons. Latimeria chalumnae museum specimen.',
     sourceReferences: [
       {
         title: 'Nature: Genome of the African coelacanth',
@@ -641,8 +641,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'The legendary kraken of nautical lore. Equipped with two elongated feeding tentacles armed with hundreds of serrated chitinous suction cups to seize deep-sea fish and squids.',
     fact: 'A giant squid’s brain is shaped like a doughnut, through the center of which its esophagus passes; if it swallows too large a chunk of food, it could suffer brain injury.',
-    imageUrl: 'https://images.unsplash.com/photo-1545670723-196ed0954986?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Smithsonian National Museum of Natural History',
+    imageUrl: '/species/giant-squid.jpg',
+    imageAttribution: 'Wikipedia user Citron — CC BY-SA 3.0. Architeuthis dux preserved specimen, Melbourne Museum.',
     sourceReferences: [
       {
         title: 'Current Biology: Giant eyes in giant squids',
@@ -674,8 +674,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'An unmistakable midnight zone fish dominated by a monstrous cavernous jaw that accounts for a quarter of its total length, trailed by a thin whip-like body.',
     fact: 'Although its gaping jaw can swallow objects much larger than itself, its stomach is relatively small, so it predominantly filters clouds of tiny deep-water shrimp.',
-    imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Ocean Exploration Trust',
+    imageUrl: '/species/gulper-eel.jpg',
+    imageAttribution: 'NOAA Ocean Exploration — Public Domain. Eurypharynx pelecanoides ROV photograph.',
     sourceReferences: [
       {
         title: 'Journal of Fish Biology: Saccopharyngiform morphology',
@@ -707,8 +707,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'The deepest-dwelling cephalopod on Earth, characterized by twin ear-shaped fins flapping atop its mantle like Disney’s animated elephant Dumbo as it glides over abyssal clay.',
     fact: 'Because it lives in pitch-black abyssal waters where predators cannot see, the dumbo octopus has evolved away its defensive ink sac entirely.',
-    imageUrl: 'https://images.unsplash.com/photo-1545670723-196ed0954986?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'NOAA Ocean Exploration',
+    imageUrl: '/species/dumbo.jpg',
+    imageAttribution: 'NOAA Okeanos Explorer — Public Domain. Grimpoteuthis sp. at abyssal depth.',
     sourceReferences: [
       {
         title: 'Marine Biology: Grimpoteuthis abyssal ecology',
@@ -740,8 +740,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Not evaluated',
     description: 'An iconic deep-sea inhabitant of the continental slopes off Australia and New Zealand. In its natural high-pressure habitat, it possesses a sleek, hydrodynamic fish form.',
     fact: 'The "droopy human face" blobfish appears in memes only when it suffers severe decompression damage from being rapidly hauled 1,000 metres to the surface.',
-    imageUrl: 'https://images.unsplash.com/photo-1530053969600-caed2596d242?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Australian Museum',
+    imageUrl: '/species/blobfish.jpg',
+    imageAttribution: 'Kerryn Parkinson / Australian Museum — CC BY 3.0. Psychrolutes marcidus depressurised specimen.',
     sourceReferences: [
       {
         title: 'Ichthyological Research: Psychrolutidae systematics',
@@ -773,8 +773,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'An extraordinary abyssal creature that perches atop the muddy sea floor on three stiff elongated fin rays, facing motionless into bottom currents to intercept drifting plankton.',
     fact: 'The tripod fish’s pectoral fins are curved forward over its head like antennae, allowing it to feel incoming prey vibrations despite having nearly non-functional eyes.',
-    imageUrl: 'https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'Deep Sea Explorations Archive',
+    imageUrl: '/species/tripod-fish.jpg',
+    imageAttribution: 'NOAA Okeanos Explorer — Public Domain. Bathypterois grallator on stilt fins.',
     sourceReferences: [
       {
         title: 'Deep Sea Research: Functional morphology of Bathypterois',
@@ -806,8 +806,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Least concern',
     description: 'A colossal relative of the common terrestrial pillbug, growing up to 50 cm in length. Equipped with compound eyes of nearly 4,000 facets and armored calcarous plating.',
     fact: 'Due to severe food scarcity in the deep sea, giant isopods possess an exceptionally slow metabolism; a captive specimen survived for over five years without food.',
-    imageUrl: 'https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'NOAA Okeanos Explorer',
+    imageUrl: '/species/giant-isopod.jpg',
+    imageAttribution: 'Wikimedia Commons — CC BY-SA. Bathynomus giganteus live specimen.',
     sourceReferences: [
       {
         title: 'Journal of Crustacean Biology: Bathynomus giganteus',
@@ -839,8 +839,8 @@ export const DOCUMENTED_SPECIES: SeedSpeciesInput[] = [
     conservationStatus: 'Not evaluated',
     description: 'A ghostly white decapod crustacean whose claws are cloaked in long, silky golden setae resembling yeti fur. It thrives huddled in crowds around deep hydrothermal rift chimneys.',
     fact: 'The yeti crab waves its furry claws rhythmically over vent plumes in a behavior dubbed the "crab dance", aerating its bacterial gardens with oxygen and hydrogen sulfide.',
-    imageUrl: 'https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=1000&q=85',
-    imageAttribution: 'IFREMER Deep Sea Biology',
+    imageUrl: '/species/yeti-crab.jpg',
+    imageAttribution: 'A. Fifis / IFREMER — CC BY-SA 2.0 / Wikimedia Commons. Kiwa hirsuta type specimen.',
     sourceReferences: [
       {
         title: 'Zoosystema: The Yeti Crab Kiwa hirsuta',

@@ -204,7 +204,7 @@ export function DepthSimulator({ speciesList, onSelectCreature }: DepthSimulator
                 onClick={() => onSelectCreature(sp)}
                 title={`Open ${sp.name} field notes`}
               >
-                <img src={sp.image} alt={sp.name} loading="lazy" />
+                <img src={sp.image} alt={sp.name} loading="lazy" onError={(e) => { const img = e.currentTarget; img.onerror = null; img.style.background='linear-gradient(180deg,#041c2c,#08293b)'; img.style.objectFit='contain'; img.src='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="60"><text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="28">🦑</text></svg>'; }} />
                 <div className="sighting-info">
                   <strong>{sp.name}</strong>
                   <em>{sp.scientific}</em>
