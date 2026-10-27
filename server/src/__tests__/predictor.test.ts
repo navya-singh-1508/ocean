@@ -92,3 +92,19 @@ test('Seed parameter provides reproducible variations', () => {
   assert.equal(resA.creature?.scientificName, resB.creature?.scientificName)
   assert.equal(resA.creature?.bodyPlan, resB.creature?.bodyPlan)
 })
+
+test('Documented species catalog contains valid scientific sources and depth bounds', async () => {
+  const { DOCUMENTED_SPECIES } = await import('../scripts/seed.js')
+  assert.ok(DOCUMENTED_SPECIES.length >= 10, 'Expected at least 10 documented species')
+
+  for (const sp of DOCUMENTED_SPECIES) {
+    assert.ok(sp.slug, `Species ${sp.name} missing slug`)
+    assert.ok(sp.scientificName, `Species ${sp.name} missing scientificName`)
+    assert.ok(sp.habitat, `Species ${sp.name} missing habitat`)
+    assert.ok(sp.sourceReferences.length > 0, `Species ${sp.name} missing scientific sources`)
+    for (const ref of sp.sourceReferences) {
+      assert.ok(ref.title, `Source title missing for ${sp.name}`)
+      assert.ok(ref.citation, `Citation missing for ${sp.name}`)
+    }
+  }
+})

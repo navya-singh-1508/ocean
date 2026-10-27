@@ -99,4 +99,48 @@ export interface PredictionResponse {
   creature?: PredictedCreature
   error?: string
   validationIssues?: string[]
+  savedToDb?: boolean
+}
+
+export interface DocumentedSpecies {
+  id: string
+  slug: string
+  name: string
+  scientificName: string
+  habitat: string
+  type: string
+  diet: string
+  depthRange: string
+  minDepthMeters?: number
+  maxDepthMeters?: number
+  environmentalConditions?: {
+    temperatureRange?: string
+    pressureRange?: string
+    lightLevel?: string
+    oxygenLevel?: string
+  }
+  biologicalAdaptations: string[]
+  ecologicalRole?: string
+  conservationStatus: string
+  description: string
+  fact: string
+  imageUrl: string
+  imageAttribution?: string
+  sourceReferences: Array<{
+    title: string
+    url?: string
+    citation: string
+  }>
+  createdAt?: string
+  updatedAt?: string
+}
+
+export interface DiscoveryItem {
+  discoveryId: string
+  predictionId: string
+  predictionSnapshot: PredictedCreature
+  notes?: string
+  userId?: string
+  isFavorite?: boolean
+  savedAt: string
 }
