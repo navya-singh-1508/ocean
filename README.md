@@ -280,3 +280,11 @@ When presenting Ocean Explorer for project evaluation, follow this structure:
 - **AI Image Generation**: When `IMAGE_PROVIDER=none` (default), predicted creatures display high-fidelity SVG biological diagrams. Live DALL·E 3 generation requires a funded OpenAI API key in `server/.env`.
 - **Third-Party Photography**: Curated species catalog photos are hosted on Unsplash CDN; loading them requires active internet access.
 - **Third-Party OAuth**: Social login (Google/GitHub) is deliberately omitted to prevent external dependency failure during academic evaluation; secure local email+password with bcrypt is implemented.
+
+- ## Demo Video
+
+Watch the Ocean Explorer project demonstration:
+
+[**Watch the Demo Video**](https://drive.google.com/file/d/1qyOToztRrgZAUbaePawG6Oo31ZTYS1DC/view?usp=sharing)
+
+The video demonstrates the main features, application workflows, and deployed project.
