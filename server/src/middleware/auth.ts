@@ -1,10 +1,12 @@
 import type { Request, Response, NextFunction, CookieOptions } from 'express'
 import jwt from 'jsonwebtoken'
+import 'cookie-parser'
 
 export interface AuthenticatedRequest extends Request {
   userId?: string
   userEmail?: string
   userName?: string
+  cookies: Record<string, string | undefined>
 }
 
 const JWT_SECRET = process.env.JWT_SECRET || 'ocean-explorer-dev-secret-CHANGE-IN-PRODUCTION'

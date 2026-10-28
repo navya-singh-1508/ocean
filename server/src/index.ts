@@ -1079,8 +1079,8 @@ app.use((err: Error, _req: Request, res: Response, _next: NextFunction) => {
   })
 })
 
-app.listen(PORT, () => {
-  console.log(`🌊 Ocean Explorer Backend v2.0 listening on port ${PORT}`)
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🌊 Ocean Explorer Backend v2.0 listening on port ${PORT} (0.0.0.0)`)
   console.log(`🔗 Allowed CORS origin: ${CORS_ORIGIN}`)
   console.log(`📡 Health check: http://localhost:${PORT}/api/health`)
   console.log(`🔐 Auth endpoints: /api/auth/register, /api/auth/login, /api/auth/logout, /api/auth/me`)
